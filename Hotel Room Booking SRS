@@ -1,0 +1,63 @@
+1 Introduction
+  1.1 Purpose
+    This documnent gives a detailed functional and non_functional requirements for hotel room booking.
+    The purpose of this document is that the requirements mentioned in it should be utilizedby software devloper to implement the system. 
+  1.2 Scope
+    "Hotel Room Booking " is an attempt to simulate the basic concept of an online hotel room booking.
+    The system enables to perform the following function:
+      SEARCH FOR AN HOTEL
+      BOOKING A SELECTED ROOM
+      PAYMENT
+      CANCELLATION
+      IMPROVED AND OPTIMIZED SERVICE
+  1.3 Overview
+      This system provides an easy solution to the customers to keep track of reservation.
+      
+2 General description
+  This enables the clients to enqiry about the rooms that are available on the basis of client requirements, such as room with AC or without AC and the timings.
+  2.1 User manual
+      The system should provide the "Help" option, which gives detailed information of the system and it shoild also provide soft copy of booked ticket.
+
+3 Functional Requirement.
+    3.1 Description
+        The identity of the customer will be verified and then entered to the database. 
+        The system will display customer photograph along with their name and id proof.
+        It will also send a e-mail after sucessfull booking of room
+    3.2 Technical Issues
+        The system will be implemented in C programming language.
+        
+4 Functional Description
+    4.1 GUI
+        GUI 1 : Main menu will be provide along with options such as Login,forget Password, Help.
+        GUI 2 : By clicking on login button, he will be redirected to main page.
+        GUI 3 : Help option will describe the fuctionality of the system. It will be written in simple HTML format.
+    4.2 Hardware Interface
+        Hardware Interface1 : The system will be embedded in laptop.
+    4.3 Software Interface
+        Software Interface1 : E-mail message generator, whcih generates startd message.
+        Software Interface2 : Report generates
+        
+5 Performance requirements
+    The email will be sent within a minute after booking hotel.
+    The system will work on any device and at any place.
+    
+6 Design constrains
+    The system should be designed within 6 months.
+    
+7. Other non-fuctional attributes
+    7.1 Security
+        The system will provide password to login on to the screen.
+    7.2 Reliability
+        Due to wireless conectivity reliability can be guaranteed.
+    7.3 Availability
+        The system will be available on all browsers.
+    7.4 Reuseability
+        The same will be used for booking room again and again.
+        
+8. Operational Scenarios
+    The database room will contain customer name, mobile number, gmail id ect.
+    
+9. Premliminary Schedule
+    The system has been implemented in 7 months.
+    
+  
